@@ -1,0 +1,702 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.hoover{
+    color:rgb(86, 167, 86)
+}
+
+#top-head{
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    padding: 5px 0;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+}
+
+.top-head-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    width: 50vw;
+}
+
+.info a{
+    text-decoration: none;
+    margin: 0 40px;
+    color: #2fb62f;
+}
+
+.info a:hover{
+    color: rgb(2, 87, 2);
+}
+
+.info button{
+    padding: 10px 25px;
+    background-color: #51be78;
+    color: white;
+    border: 2px solid #62bb81;
+    cursor: pointer;
+}
+
+.info button:hover{
+    background-color:  rgb(1, 148, 1) ;
+}
+
+.info{
+    list-style: none;
+}
+
+/* NAVIGATION MENU */
+
+#top-nav{
+    display: flex;
+    /* opacity: 0.6; */
+    /* z-index: 3; */
+    position: sticky;
+    top:0;
+    left:0;
+    width: 100vw;
+    height:60px ;
+    z-index: 10;
+}
+
+#top-nav::before{
+    content: "";
+    background: rgb(255, 255, 255); 
+    position: absolute;
+    z-index: -5;
+    height: 60px;
+    width: 100vw;
+    box-shadow: 0px 1px 5px rgb(214, 213, 213);
+}
+
+.udamy{
+    width: 25vw;
+}
+
+.udamy img{
+    height: 60px;
+    position:initial;
+    cursor: pointer;
+}
+
+.navul{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 50vw;
+}
+
+.navul li{
+    list-style: none;
+    padding: 20px 20px;
+}
+
+.navul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navul li a:hover{
+    color:rgb(1, 148, 1) ;
+}
+
+.icons{
+    width: 25vw;
+
+}
+
+.icons ul{
+    display: flex;
+    
+}
+
+.icons img{
+      height: 30px;
+      padding: 10px 10px;
+      cursor: pointer;
+}
+
+.icons li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+
+
+/* CONTENT ON IMAGE */
+
+#intro{
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 112px;
+    text-align: center;
+    z-index: 1;
+}
+
+#intro h1{
+    position:relative;
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 112px;
+    text-align: center;
+    z-index: 1;
+    text-shadow: 3px 3px 10px black;
+}
+
+#intro::before{
+    content: "";
+    background: url('images/pexels-pixabay-159823.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -10;
+    opacity: 0.7;
+}
+
+/* SPECIALITY CONTAINER*/
+
+#special{
+    /* width: 100vw; */
+    /* height: 50vh; */
+   margin-top: 120px;
+   margin-bottom: 70px;
+   margin-left:100px;
+   margin-right: 100px;
+}
+
+#special h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 70px;
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    margin: 0 30px;
+    border: 2px dashed rgb(57, 214, 122);
+    padding: 30px;
+}
+
+.items h2{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 1.4rem;
+    color:#51be78;
+}
+
+.items p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.items button{
+    margin: auto;
+    display: block;
+    font-size: 16px;
+}
+
+.items img{
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+.butt{
+    padding: 10px 25px;
+    background-color: #51be78;
+    color: white;
+    border: 2px solid #62bb81;
+    cursor: pointer;
+}
+
+.butt:hover{
+background-color:  rgb(1, 148, 1) ;;
+}
+
+/* POPULAR COURSES*/
+ 
+.checked{
+    color: orange;
+}
+
+#courses{
+    margin:0 100px;
+    margin-top: 200px;
+}
+
+
+#popularcourses h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+#popularcourses > p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 120px;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1{
+    margin: 20px;
+    box-shadow: 5px 5px 8px  rgb(110, 110, 110);
+}
+
+.item1 img{
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+
+.item1 h3{
+    display: block;
+    margin: auto;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 15px;
+    padding-left:25px;
+}
+
+.item1 >div:first-of-type{
+    height: 60px;
+    background-color: #51be78;
+    position:relative;
+    bottom: 10px;
+}
+
+.item1 h2{
+       display: block;
+       text-align: center;
+       font-size: 1.4rem; 
+       margin: 20px 50px;
+}
+
+.star{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.fa{
+    margin-left:8px;        /*Margin for starts rating */
+}
+
+.item1>p{
+    text-align: center;
+    margin: 30px 50px;
+    color: rgb(136, 136, 136);
+}
+
+.item1> button{
+    font-size: 0.9em;
+    display: block;
+    margin: auto;
+    margin-bottom: 29px;
+}
+
+
+/* ABOUT OUR UNIVERSITY*/
+
+#aboutus{
+    display: flex;
+    margin: 50px 0px;
+    background-color:#183661;
+    color: white;
+    padding-bottom: 50px;
+}
+
+#heading{
+width: 30vw;
+text-align: end;
+font-size: 1.5rem;
+padding: 50px;
+}
+
+#content1{
+width: 50vw;
+text-align:justify;
+padding: 50px;
+color: rgb(182, 182, 223);
+}
+
+#content1 >p:first-child{
+    font-size: 1rem; 
+    margin-bottom: 20px;
+}
+
+#read{
+    text-decoration: none;
+    font-size: 1.2rem; 
+    color: rgb(39, 146, 39);
+    
+}
+
+#read:hover{
+    color: rgb(139, 161, 150);
+}
+
+/* TESTIMONIAL*/
+
+#testimonial{
+    margin: 150px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    text-align: justify;
+}
+
+#testimonial h1{
+    font-size: 2rem;
+    margin-bottom: 60px;
+    padding-left:24px;
+}
+
+#containert{
+    display: flex;
+    box-shadow: 3px 3px 10px rgb(231, 229, 229);
+}
+
+.itemt{
+    margin: 30px;
+   
+}
+
+.imagebox img{
+    width: 50px;
+    
+}
+
+.last{
+    display: flex;
+    font-size: 1.2em;
+}
+
+.imagetitle{
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.imagetitle p{
+    font-size: 1.4rem;
+    color: rgb(116, 116, 116);
+}
+
+.itemt >p{
+    font-size: 1.2rem;
+    color: rgb(163, 163, 163);
+}
+
+/*SPECIALITY*/
+
+#speciality{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #183661;
+    color: rgb(150, 150, 150);
+    height: 64vh;
+}
+
+#speciality::before{
+    content: "";
+    background: url('images/girl-3718526_1920.jpg') no-repeat center center/cover ;
+    position:absolute;
+    width: 100vw;
+    height: 64vh;
+    opacity: 0.1;
+}
+
+.itemsp{
+    width: 20vw;
+    height: 50vh;
+    padding: 50px;
+}
+
+.itemsp img{
+    width: 4vw;
+    margin-bottom: 10px;
+    filter: invert(0.6);
+}
+
+.itemsp h2{
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+}
+
+.itemsp p{
+    font-size: 1.1rem;
+    text-align:justify;
+    color: rgb(241, 240, 240);
+    margin-bottom: 100px;
+}
+
+/* NEWS */
+
+#news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#camping{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.campingcontent{
+    margin: 20px;
+    margin-left: 0;
+}
+
+.campingcontent > img{
+    width: 25vw;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.meeting{
+    display: flex;
+}
+
+.meeting1 > img{
+    width: 10vw;
+}
+
+.containernews >a > img{
+    width: 16vw;
+    display: block;
+    position: relative;
+    margin: 10px;
+    margin-left: 0;
+    margin-bottom: 20px;   
+    box-sizing: border-box;
+    bottom: 20px;
+}
+
+
+
+.containernews >h1{
+    font-size: 1.9rem;
+}
+
+.readmore{
+    margin-bottom: 40px;
+}
+
+.readmore >a{
+    text-decoration: none;
+    color:#388653;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.readmore >a:hover{
+    color: rgb(57, 214, 122);
+}
+
+.Grey{
+    color: rgb(133, 131, 131);
+}
+
+
+#lessmargin{
+    margin-bottom: 10px;
+}
+
+.newsanchor{
+    text-decoration: none;
+}
+
+#news h4{
+    margin: 5px 0;
+    color: black;
+}
+
+#news h4:hover{
+    color: rgb(2, 87, 2);
+}
+
+#news img:hover{
+    box-shadow: 3px 3px 5px rgb(182, 181, 181);
+}
+
+/* JOIN US */
+
+#Contact{
+    display: flex;
+    flex-direction: row;    
+    margin-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    color: white;
+}
+
+
+#Subsection::before{
+    content: "";
+    background: url('images/pexels-jÃ©shoots-4831.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100vw;
+    height:100vh;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#Subsection{
+    background:#183661;
+    height: 100vh;
+    opacity: 0.9;
+}
+
+#joinus{
+    width:40vw;
+    position: relative;
+    top:15px;
+    
+
+}
+
+#joinus >h1{
+    font-size: 1.7rem;
+    color: rgb(141, 231, 141);
+}
+
+#contactus{
+    width: 40vw;;
+    z-index: 6;
+    
+}
+
+
+.formitem{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formitem > label{ font-size: 1.4rem;}
+
+.Name{
+    padding: 5px 0;
+    padding-left: 3px;
+    width: 40vw;
+    border-radius: 10px;
+    border: 2px solid #183661;
+    font-size: 1em;
+}
+
+/*FOOTER*/
+
+footer{
+    background:#17345c ;
+}
+
+
+#foot{
+    display: flex;
+    padding:50px;
+    padding-left: 100px;
+    padding-right:100px;
+    color: white;
+}
+
+.footobj img{
+    width: 15vw;
+    position: relative;
+    bottom:10px;
+    right: 10px;
+}
+
+.footobj{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-right: 10px;
+}
+
+.footobj:first-child{
+    margin-right: 50px;
+}
+
+.footobj >p{
+    margin-bottom: 10px;
+}
+
+.footobj >h4{
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.newsanchor1 span{
+    text-decoration: none;
+    color: rgb(57, 214, 122);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 6px;
+    display:inline;
+    cursor: pointer;
+}
+
+.newsanchor1 span:hover{
+    color: rgb(212, 212, 212);
+    text-decoration:underline;
+}
+
+.newsanchor1{
+    cursor: unset;
+}
+
+.footline p{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:center;
+    color: white;
+   
+}
+
+.footline{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+@media screen and (max-width:450px)
+{
+    .info a{
+        font-size: 7px;
+    }
+}
+
+
+
+

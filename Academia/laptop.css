@@ -1,0 +1,70 @@
+.info a{
+    margin: 10px;
+}
+
+#top-nav{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+
+#top-nav::before{
+    height: 150px;
+}
+.navul{
+    width: 100vw;;
+}
+
+.navul{
+    justify-content: center;
+}
+
+.navul li{
+    /* margin: 0 20px; */
+    padding: 0 20px;
+}
+
+.udamy{
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+}
+
+.icons li{
+   margin-top: 0;
+}
+
+.icons{
+    margin: auto;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+#testimonial{
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+.itemsp{
+    width: 30vw;
+    height: 60vh;
+    padding: 10px;
+}
+
+#speciality{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #183661;
+    color: rgb(150, 150, 150);
+    height: 80vh;
+}
+
+#speciality::before{
+    content: "";
+    background: url('images/girl-3718526_1920.jpg') no-repeat center center/cover ;
+    position:absolute;
+    width: 100vw;
+    height: 80vh;
+    opacity: 0.1;
+}

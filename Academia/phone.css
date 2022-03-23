@@ -1,0 +1,39 @@
+*{
+    font-size: 0.8rem;
+}
+
+h1{
+    font-size: 10px;
+}
+.item1 h2 {
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 8px 6px;
+}
+
+.item1>p {
+    text-align: center;
+    margin: 14px 5px;
+    color: rgb(136, 136, 136);
+}
+
+#heading >h3{
+    font-size: 1.7rem;
+}
+
+.imagetitle > h2{
+    font-size: 1.7rem;
+}
+
+.items{
+    padding: 10px;
+    margin: 0 7px;
+    width: 24vw;
+}
+
+
+.butt{
+    padding: 5px;
+    font-size: 10px;
+}
